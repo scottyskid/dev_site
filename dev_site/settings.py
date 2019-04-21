@@ -25,7 +25,9 @@ SECRET_KEY = '$6-pohpv80f4f5+9n^(i2s+5m8ljuobc)v@sj_8%^a@$7n_p52'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'dev.scottyskidmore.com',
+]
 
 
 # Application definition
